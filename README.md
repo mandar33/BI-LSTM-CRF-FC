@@ -17,3 +17,6 @@ LSTM-CRF code credits: https://github.com/huangxt39/LSTM-CRF-pytorch
 Advanced: Making Dynamic Decisions and the Bi-LSTM CRF
 https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html
 
+sample data pregenerated for training and testing (i2b2 2010) preprocessed accessed from the repo
+https://github.com/raghavchalapathy/Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction
+
