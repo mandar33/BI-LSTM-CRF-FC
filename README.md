@@ -25,8 +25,11 @@ this notebook translates the concept and txt files data input into train,dev(val
 
 6) Training, Model and Test 
     a) Please run the jupyter notebook BIDIR_LSTM_CRF_FC.ipynb to train and test concepts and txt data for fully connected LSTM-CRF proposed by the original authors.
-    b) Please run the jupyter notebook CS598BIDIR-LISTM-CRF-STACKED-Project.ipynb to train and test concepts and txt data for 4 layer stacked BIDIR-LSTM-CRF 
+    
+    b) Please run the jupyter notebook CS598BIDIR-LISTM-CRF-STACKED-Project.ipynb to train and test concepts and txt data for 4 layer stacked BIDIR-LSTM-CRF. 
+    
     c) Please run the jupyter notebook BI-LISTM-CRF.ipynb to train and test concepts and txt data for BIDIR-LSTM-CRF.
+    
     d) Please run the jupyter notebook UniLSTM-CRF.ipynb to train and test concepts and txt data for fully connected UNIDIR-LSTM-CRF.
 
 7) Evaluation code + command 
