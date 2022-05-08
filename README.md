@@ -37,6 +37,7 @@ Table of results
 
 ![ScoresFinal](https://user-images.githubusercontent.com/6293859/167307471-7439a42d-ce43-45b1-b90c-94697da3eaf1.PNG)
 
+Number 4 (Fully Connected LSTM-CRF) performed the best, but due to limited data availability I could not get the performance that the original authors achieved.
 
 We run this notebook in google colab using GPU runtime
 
