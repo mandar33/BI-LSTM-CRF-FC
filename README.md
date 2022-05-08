@@ -7,18 +7,13 @@ CS598  Final Project implementing the paper:
 Received: 14 December 2018 / Accepted: 12 February 2020 / Published online: 24 February 2020
 © Springer-Verlag GmbH Germany, part of Springer Nature 202
 
-There is no original repo 
+There is no original repo provided by the above mentioned authors of the paper.
 
-Dependencies: pytorch , GLOVE300D6B (.txt), matlplotlib, conlleval(pip install conlleval), python 3.x
+Dependencies: pytorch 1.9 , GLOVE300D6B (.txt), matlplotlib, conlleval(pip install conlleval), python 3.x
 
 Data download instruction
 i2b2010 dataset for medical concepts
-Register for an account at https://portal.dbmi.hms.harvard.edu/ 
-
-The i2b2 NLP data sets previously released on i2b2.org are now hosted here on the DBMI Data Portal under their new name, n2c2 (National NLP Clinical Challenges):
-
-n2c2 NLP Research Data Sets: https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
-
+Register for an account at https://portal.dbmi.hms.harvard.edu/ . The i2b2 NLP data sets previously released on i2b2.org are now hosted here on the DBMI Data Portal under their new name, n2c2 (National NLP Clinical Challenges):n2c2 NLP Research Data Sets: https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
 2010 relation challenge datasets: download the concepts and txt 
 
 
@@ -32,12 +27,14 @@ this notebook translates the concept and txt files data input into train,dev(val
 4) Please run the jupyter notebook UniLSTM-CRF.ipynb to train and test concepts and txt data for fully connected UNIDIR-LSTM-CRF.
 
 Evaluation code + command 
-Please run pip install conlleval (credit: https://github.com/kaniblu/conlleval) to get F1 scores, Precision, Recall, Accuracy scores. The last code cell in each notebook shows how to extract that info to an output file
+Please run pip install conlleval (credit: https://github.com/kaniblu/conlleval) to get F1 scores, Precision, Recall, Accuracy scores. The last code cell in each notebook shows how to extract that info to an output file and get the best F1 score.
 
 
-No Pretrained models 
+No Pretrained models used
 
 Table of results 
+
+
 ![ScoresFinal](https://user-images.githubusercontent.com/6293859/167307471-7439a42d-ce43-45b1-b90c-94697da3eaf1.PNG)
 
 
@@ -53,5 +50,5 @@ Advanced: Making Dynamic Decisions and the Bi-LSTM CRF
 https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html
 
 
-https://github.com/raghavchalapathy/Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction
+Preprocess Code credits: https://github.com/raghavchalapathy/Bidirectional-LSTM-CRF-for-Clinical-Concept-Extraction (theano)
 
