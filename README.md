@@ -1,4 +1,4 @@
-# BI-LSTM-CRF-FC
+# BI-LSTM-CRF-FC readme (steps to run the notebook code, result and references)
 
 CS598  Final Project implementing the paper: 
 
