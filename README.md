@@ -24,6 +24,7 @@ Please run the notebook in jupyter/google colab: Transform_i2b2_CoNLL_data.ipynb
 this notebook translates the concept and txt files data input into train,dev(validation) and test files(80/10/10) approx split ratio.
 
 6) Training, Model and Test 
+
     a) Please run the jupyter notebook BIDIR_LSTM_CRF_FC.ipynb to train and test concepts and txt data for fully connected LSTM-CRF proposed by the original authors.
     
     b) Please run the jupyter notebook CS598BIDIR-LISTM-CRF-STACKED-Project.ipynb to train and test concepts and txt data for 4 layer stacked BIDIR-LSTM-CRF. 
