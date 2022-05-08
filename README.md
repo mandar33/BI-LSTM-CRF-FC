@@ -11,13 +11,13 @@ There is no original repo provided by the above mentioned authors of the paper.
 
 Dependencies: pytorch 1.9 , GLOVE300D6B (.txt), matlplotlib, conlleval(pip install conlleval), python 3.x
 
-Data download instruction
+Data download instruction\r\n
 i2b2010 dataset for medical concepts
 Register for an account at https://portal.dbmi.hms.harvard.edu/ . The i2b2 NLP data sets previously released on i2b2.org are now hosted here on the DBMI Data Portal under their new name, n2c2 (National NLP Clinical Challenges):n2c2 NLP Research Data Sets: https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
 2010 relation challenge datasets: download the concepts and txt 
 
 
-Preprocessing code + command (if applicable)
+Preprocessing code + command (if applicable)\r\n
 Please run the notebook in jupyter/google colab: Transform_i2b2_CoNLL_data.ipynb
 this notebook translates the concept and txt files data input into train,dev(validation) and test files(80/10/10) approx split ratio.
 
@@ -26,7 +26,7 @@ this notebook translates the concept and txt files data input into train,dev(val
 3) Please run the jupyter notebook BI-LISTM-CRF.ipynb to train and test concepts and txt data for BIDIR-LSTM-CRF.
 4) Please run the jupyter notebook UniLSTM-CRF.ipynb to train and test concepts and txt data for fully connected UNIDIR-LSTM-CRF.
 
-Evaluation code + command 
+Evaluation code + command \r\n
 Please run pip install conlleval (credit: https://github.com/kaniblu/conlleval) to get F1 scores, Precision, Recall, Accuracy scores. The last code cell in each notebook shows how to extract that info to an output file and get the best F1 score.
 
 
